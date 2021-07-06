@@ -38,7 +38,7 @@ protobuf = "2"
 
 url = "*"
 
-async-tungstenite = { version = "0.8", features = ["async-std-runtime"] }
+async-tungstenite = { version = "0.14", features = ["async-std-runtime"] }
 async-std = {version="*", features = ["unstable"]}
 async-tls = "*"
 futures = "0.3"
